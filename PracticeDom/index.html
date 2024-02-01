@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="red()" >red</button>
+    <button onclick="green()" >green</button>
+    <button onclick="black()" >black</button>
+    <button onclick="changText()" >change Text</button>
+
+    <p class="content">
+        to day Im feel so bad I hope I can study well <br> and get a good job in the future to have a lot of 
+        money for take care my family
+    </p>
+    <script>
+
+        function red(){
+           document.querySelector(".content").style.color = 'red';
+           console.log("asdsad")
+          
+        
+        }
+        function green(){
+           document.querySelector('.content').style.color = 'green';
+        
+        }
+        function black(){
+           document.querySelector('.content').style.color = 'black';
+        
+        }
+
+        function changText(){
+            document.querySelector('.content').textContent = "canh dep daxzai"
+
+        }
+      
+      </script>
+</body>
+
+</html>

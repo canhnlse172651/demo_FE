@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    height: 100vh;
+    background: linear-gradient(120deg,#3ca7ee,#9b408f);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    padding: 40px;
+}
+h1{
+    text-align: center;
+    font-size: 30px ;
+}
+
+.form-control{
+    width: 100%;
+    position: relative;
+    margin-top: 30px            ;
+}
+
+.form-control input{
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    border-bottom: 1px solid #adadad;
+}
+
+.form-control span{
+    width: 0;
+    height: 2px;
+    background: blue;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in;
+}
+
+
+.form-control input:focus ~ span{
+    width: 100%;
+}
+
+.form-control.error small{
+   color: red;
+}
+
+.form-control.error input{
+    border-bottom: 1px solid red;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 13px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: darkcyan;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.login-btn:hover{
+    opacity: 1;
+}
+
+.logout-link{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.logout-link a{
+    text-decoration: none;
+    color: #3ca7ee;
+}

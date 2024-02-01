@@ -1,0 +1,68 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    background: #dadada;
+
+
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    height: 80%;
+}
+
+.main{
+    height: 80%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.list_Img{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_Img div{
+    flex: 1;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.control{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.pre{
+    left: 10px;
+}
+
+.next{
+    right: 10px;
+}
+
+.active{
+    background:rgb(237, 68, 68);
+}
+
+.hide{
+    display: none;
+}

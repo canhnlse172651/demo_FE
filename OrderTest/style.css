@@ -1,0 +1,74 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:  100vh;
+    background:  #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Menu {
+
+    border: 1px solid white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: cadetblue;
+
+}
+
+button{
+    padding: 10px ;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    width: 40%;
+    background: orange;
+    color: white;
+    margin-top: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.Receipt{
+    position: fixed;
+    border-radius: 5px;
+    border: solid 1px white;
+    top: 15%;
+    right: 10%;
+    width: 200px;
+    text-align: center;
+    width: 400px;
+}
+
+.head_receipt{
+    background-color: chocolate;
+    padding: 15px;
+}
+
+.fotter_receipt{
+    background-color: burlywood;
+    padding: 15px;
+}

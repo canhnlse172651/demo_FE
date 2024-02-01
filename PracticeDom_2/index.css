@@ -1,0 +1,7 @@
+body{
+    img{
+        width: 20%;
+        height: 400px;
+        cursor: pointer;
+    }
+}
